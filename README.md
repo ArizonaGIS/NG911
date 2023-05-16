@@ -3,8 +3,8 @@ This repository contains a set of scripts that help clean and preprocess GIS dat
 Table of Contents
 Getting Started
 Scripts
-parse_street_name.py
-define_parity.py
+Street Pre Type Parsing AZGeo.py
+Update_Parity.py
 create_composite_geocoder.py
 Contributing
 License
@@ -19,15 +19,15 @@ You will need Python installed on your system to run these scripts. You can down
 Additionally, ensure that you have installed any necessary Python libraries that these scripts require.
 
 Scripts
-parse_street_name
-parse_street_name.py is a script that processes and parses the street name field into the street pre-type field. This helps standardize street names and abbreviations, as required by NG911.
+Street Pre Type Parsing AZGeo
+Street Pre Type Parsing AZGeo.py is a script that processes and parses the street name field into the street pre-type field. This helps standardize street names and abbreviations, as required by NG911.
 
 Usage:
 
 Copy code
 python parse_street_name.py input_file output_file
-define_parity
-define_parity.py is a script that defines the parity of a road centerline segment based on the hundred range value. This ensures that address ranges are consistent and accurate.
+Update_Parity
+Update_Parity.py is a script that defines the parity of a road centerline segment based on the hundred range value. This ensures that address ranges are consistent and accurate.
 
 Usage:
 
