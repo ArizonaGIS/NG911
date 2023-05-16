@@ -1,0 +1,2 @@
+# NG911
+This repository contains a set of scripts that help clean and preprocess GIS data to meet the requirements of Next Generation 911 (NG911). The repository includes three main scripts that parse the street name field into the street pre-type field, define the parity of a road centerline segment based on the hundred range value, and create a composite geocoder based on NG911 address point and road centerline data, as well as a postal code polygon boundary.
